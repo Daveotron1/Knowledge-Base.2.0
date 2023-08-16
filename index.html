@@ -59,10 +59,14 @@
                 </button>
                 <div class="dropdown-menu" aria-labelledby="reasonCategoryButton">
                     <a class="dropdown-item" href="#" data-value="">Select a Reason</a>
-                    <a class="dropdown-item" href="#" data-value="how-to-run-data-capture">How to run Data Capture</a>
-                    <a class="dropdown-item" href="#" data-value="how-to-replace-batteries">How to replace batteries</a>
-                    <a class="dropdown-item" href="#" data-value="how-to-change-tool-language">How to change tool
-                        language</a>
+
+                    <a class="dropdown-item" href="#" data-value="5010-tool-not-powering-on">Tool Not Powering On When Connected</a>
+
+                    <a class="dropdown-item" href="#" data-value="5210-what-is-a-hot-key">What is a Hot Key</a>
+                    <a class="dropdown-item" href="#" data-value="5210-performing-a-battery-&-alternator-test">Performing a Battery & Alternator Test</a>
+                    <a class="dropdown-item" href="#" data-value="5210-viewing-led-definitions-using-innova-5210">Viewing LED Definitions using Innova 5210</a>
+                    <a class="dropdown-item" href="#" data-value="5210-innova-5210-damage-usb-port">Innova 5210: Damaged USB Port</a>
+
                 </div>
             </div>
 
@@ -264,13 +268,16 @@
             // Customize this function to return the appropriate PDF URL based on the selected tool and reason
             var pdfFiles = {
                 "5010": {
-                    "how-to-run-data-capture": "./PDF-Folder/How to Report an Issue.pdf"
+                    "5010-tool-not-powering-on": "./PDF-Folder/5010/23-5010-001.pdf"
+
                 },
-                "5110": {
-                    "how-to-replace-batteries": "./How to replace batteries.pdf"
-                },
+
                 "5210": {
-                    "how-to-replace-batteries": "./How to replace batteries.pdf"
+                    "how-to-replace-batteries": "./How to replace batteries.pdf",
+                    "5210-what-is-a-hot-key": "./PDF-Folder/5210/23-5210-001.pdf",
+                    "5210-performing-a-battery-&-alternator-test": "./PDF-Folder/5210/23-5210-002.pdf",
+                    "5210-viewing-led-definitions-using-innova-5210": "./PDF-Folder/5210/23-5210-003.pdf",
+                    "5210-innova-5210-damage-usb-port": "./PDF-Folder/5210/23-5210-004.pdf"
                 }
                 // Add more tool and reason mappings as needed
             };
