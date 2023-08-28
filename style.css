@@ -1,10 +1,15 @@
-.btn-group {
-    margin-right: 1rem; 
-    margin-top: 30px;
+.message {
+    margin-left:74px;
 }
-  
-.btn-group:last-child {
-    margin-right: 0;
+
+.container-main {
+    margin-left:72px;
+}
+.btn-group {
+   
+    margin-right: 1rem; 
+    margin-left:0;
+    margin-top: 30px;
 }
 
 #start-button {
@@ -20,7 +25,7 @@
     justify-content: center;
     justify-items: center;
     align-content: center;
-    margin-top: 10;
+    margin-top:0;
 }
 
 .navbar-brand.h1 {
